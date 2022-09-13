@@ -1,13 +1,21 @@
+.important {
+background-color: rgb(218, 109, 95);
+}
+
+
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 62);
+  padding: 12px;
 }
 
 a {
   background-color: rgb(167, 1, 78);
   color: white;
+  border: 1px solid rgb(167, 1, 78);
   border-radius: 4px;
   font-size: 24px;
+  padding: 12px;
 }
 
 a:hover {
@@ -17,10 +25,18 @@ a:hover {
 
 ol {
   list-style: none;
+  width: 500px;
+  margin: 36px auto 0;
+  padding: 0;
 }
 
 li {
   background-color: rgb(223, 136, 124);
   border-radius: 6px;
-  margin: 42px;
+  margin: 32px;
+  padding: 12px;
+}
+
+header p {
+  margin-top: 36px;
 }
