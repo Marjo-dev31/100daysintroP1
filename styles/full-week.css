@@ -2,11 +2,15 @@
 background-color: rgb(218, 109, 95);
 }
 
+#description {
+  margin: 12px;
+}
 
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 62);
   padding: 12px;
+  margin: 12px;
 }
 
 a {
@@ -16,6 +20,8 @@ a {
   border-radius: 4px;
   font-size: 24px;
   padding: 12px;
+  display: inline-block;
+  margin: 12px;
 }
 
 a:hover {
